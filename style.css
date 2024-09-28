@@ -274,7 +274,7 @@ header div {
   top: 0;
   width: 20px;
   height: 20px;
-  background: url("./img/Check_ring_light.png") no-repeat center center;
+  background: url("./img/Check_ring_light.svg") no-repeat center center;
   background-size: contain;
 }
 
