@@ -449,26 +449,30 @@ header div {
 }
 
 .what-we-do .list ul li {
-  position: relative;
   font-size: 24px;
   line-height: 31.2px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  cursor: pointer;
+
   /* justify-content: flex-start;
   display: flex; */
+  transition: color 0.3s ease-in;
 }
 
-.what-we-do .list ul li::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 5px;
-
-  transform: translateX(150%);
-  width: 20px;
-  height: 20px;
-  background: url("./img/arrow.png") no-repeat center center;
-  background-size: contain;
+.what-we-do .list ul li:hover {
+  color: #5b40ff;
 }
 
+.what-we-do .list ul li img {
+  width: 12px;
+  height: 12px;
+  /* padding-left: 14px; */
+  margin-left: 14px;
+  fill: black;
+  color: black;
+}
 /* footer  */
 .footer {
   margin-top: 90px;
